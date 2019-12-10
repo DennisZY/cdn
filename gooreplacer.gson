@@ -38,6 +38,12 @@
       "kind": "wildcard",
       "dst": "gravatar.loli.net",
       "enable": true
+    },
+    {
+      "src": "maps.googleapis.com",
+      "kind": "wildcard",
+      "dst": "ditu.google.cn",
+      "enable": true
     }
   ],
   "cancel-rules": [],
