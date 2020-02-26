@@ -44,6 +44,12 @@
       "kind": "wildcard",
       "dst": "ditu.google.cn",
       "enable": true
+    },
+    {
+      "src": "https://use.fontawesome.com/releases/v",
+      "kind": "wildcard",
+      "dst": "https://cdn.bootcss.com/font-awesome/",
+      "enable": true
     }
   ],
   "cancel-rules": [],
