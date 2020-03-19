@@ -50,6 +50,12 @@
       "kind": "wildcard",
       "dst": "ditu.google.cn",
       "enable": true
+    },
+    {
+      "src": "raw.githubusercontent.com",
+      "kind": "wildcard",
+      "dst": "raw.staticdn.net",
+      "enable": true
     }
   ],
   "cancel-rules": [],
