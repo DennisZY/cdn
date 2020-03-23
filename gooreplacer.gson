@@ -1,12 +1,12 @@
 {
   "createBy": "http://liujiacai.net/gooreplacer/",
   "version": "3.11.0",
-  "createAt": "2020/2/26 下午3:12:50",
+  "createAt": "2020/3/23 上午8:12:45",
   "redirect-rules": [
     {
-      "src": "use.fontawesome.com/releases/v",
+      "src": "secure.gravatar.com",
       "kind": "wildcard",
-      "dst": "cdn.bootcss.com/font-awesome/",
+      "dst": "gravatar.loli.net",
       "enable": true
     },
     {
@@ -16,15 +16,9 @@
       "enable": true
     },
     {
-      "src": "ajax.googleapis.com",
+      "src": "themes.googleusercontent.com",
       "kind": "wildcard",
-      "dst": "ajax.loli.net",
-      "enable": true
-    },
-    {
-      "src": "fonts.googleapis.com",
-      "kind": "wildcard",
-      "dst": "fonts.loli.net",
+      "dst": "themes.loli.net",
       "enable": true
     },
     {
@@ -34,27 +28,45 @@
       "enable": true
     },
     {
-      "src": "themes.googleusercontent.com",
+      "src": "i.imgur.com",
       "kind": "wildcard",
-      "dst": "themes.loli.net",
-      "enable": true
-    },
-    {
-      "src": "*.gravatar.com",
-      "kind": "wildcard",
-      "dst": "gravatar.loli.net",
-      "enable": true
-    },
-    {
-      "src": "maps.googleapis.com",
-      "kind": "wildcard",
-      "dst": "ditu.google.cn",
+      "dst": "cdn.staticdn.net",
       "enable": true
     },
     {
       "src": "raw.githubusercontent.com",
       "kind": "wildcard",
       "dst": "raw.staticdn.net",
+      "enable": true
+    },
+    {
+      "src": "ajax.googleapis.com",
+      "kind": "wildcard",
+      "dst": "ajax.loli.net",
+      "enable": true
+    },
+    {
+      "src": "www.google.com/recaptcha",
+      "kind": "wildcard",
+      "dst": "recaptcha.net/recaptcha",
+      "enable": true
+    },
+    {
+      "src": "downloads.openwrt.org",
+      "kind": "wildcard",
+      "dst": "openwrt.mirrors.ustc.edu.cn",
+      "enable": true
+    },
+    {
+      "src": "gerrit.googlesource.com",
+      "kind": "wildcard",
+      "dst": "gerrit-googlesource.lug.ustc.edu.cn",
+      "enable": true
+    },
+    {
+      "src": "maps.googleapis.com",
+      "kind": "wildcard",
+      "dst": "ditu.google.cn",
       "enable": true
     }
   ],
