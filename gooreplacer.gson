@@ -1,7 +1,7 @@
 {
   "createBy": "http://liujiacai.net/gooreplacer/",
   "version": "3.11.0",
-  "createAt": "2020/3/23 上午8:12:45",
+  "createAt": "2020/3/26 上午10:14:41",
   "redirect-rules": [
     {
       "src": "secure.gravatar.com",
