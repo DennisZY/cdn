@@ -1,0 +1,31 @@
+$mainColor: #F8AE00;
+$secondColor: #FFD500;
+
+$bgColor: #141715;
+
+$color: #222222;
+
+$lightColor: #ccc;
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	width: 100%;
+}
+
+.btn {
+	// height: 40px;
+	// line-height: 40px;
+	display: inline-block;
+	border-radius: 20px;
+	text-align: center;
+	color: #fff;
+	background-color: $mainColor;
+	border: none;
+	padding: 8px 36px;
+	outline: none;
+	cursor: pointer;
+}
